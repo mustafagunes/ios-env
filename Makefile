@@ -4,9 +4,6 @@ HOMEBREW := $(shell command -v brew 2>/dev/null)
 COCOAPODS := $(shell command -v pod 2> /dev/null)
 
 
-# curl -O https://github.com/mustafagunes/Restful-MVVM/blob/master/Podfile
-
-
 # Default Makefile func
 default: setup
 
